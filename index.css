@@ -13,9 +13,20 @@ h1 {
     color: magenta;
     text-align: center;
     font-size: 100px;
-    filter: hue-rotate(90deg);
+    /* filter: hue-rotate(90deg); */
     margin: 0;
     margin-bottom: 100px;
+    /* background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 60%); */
+    background-size: contain;
+    /* filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 1)); */
+    overflow: visible;
+
+}
+
+h1 img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 80px;
 }
 
 html {
